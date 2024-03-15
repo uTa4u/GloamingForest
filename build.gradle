@@ -43,7 +43,7 @@ minecraft {
     mcpMappingVersion = '39'
     
     // Set username here, the UUID will be looked up automatically
-    username = 'Developer'
+    username = 'uTa4u'
     
     // Add any additional tweaker classes here
     // extraTweakClasses.add('org.spongepowered.asm.launch.MixinTweaker')
@@ -105,7 +105,8 @@ dependencies {
 
     // Example of deobfuscating a dependency
     // implementation rfg.deobf('curse.maven:had-enough-items-557549:4543375')
-
+	implementation rfg.deobf('curse.maven:the-twilight-forest-227639:3051450')
+	
     if (project.use_mixins.toBoolean()) {
         // Change your mixin refmap name here:
         String mixin = modUtils.enableMixins('org.spongepowered:mixin:0.8.3', "mixins.${project.archives_base_name}.refmap.json")

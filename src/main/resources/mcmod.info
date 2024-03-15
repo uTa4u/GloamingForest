@@ -1,15 +1,17 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "gloamingforest",
+  "name": "The Gloaming Forest",
+  "description": "An addon for Twilight Forest mod which adds the final boss",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://www.vocabulary.com/dictionary/gloaming",
   "updateUrl": "",
-  "authorList": ["CleanroomMC"],
-  "credits": "Authors of this project",
+  "authorList": ["CleanroomMC",
+  				 "uTa4u"],
+  "credits": "Thanks to CleanroomMC for creating a template on which this mod was based",
   "logoFile": "",
+  "required": ["twilightforest"],
   "screenshots": [],
   "dependencies": []
 }
